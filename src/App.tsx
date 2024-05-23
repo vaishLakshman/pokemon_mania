@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import PokemonFive from "./components/PokemonFive";
+import PokemonFooterPage from "./components/PokemonFooterPage";
+import PokemonFour from "./components/PokemonFour";
+import PokemonHomePage from "./components/PokemonHomePage";
+import PokemonOne from "./components/PokemonOne";
+import PokemonThree from "./components/PokemonThree";
+import PokemonTwo from "./components/PokemonTwo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <PokemonHomePage />
+      <PokemonOne />
+      <PokemonTwo />
+      <PokemonThree />
+      <PokemonFour />
+      <PokemonFive />
+      {/* <PokemonFooterPage /> */}
     </div>
   );
 }

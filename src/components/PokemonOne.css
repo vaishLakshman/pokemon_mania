@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+.pokemonOne,
+.pokemonTwo,
+.pokemonThree,
+.pokemonFour,
+.pokemonFive {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.pokemonOne {
+  background-color: pink;
+}
+
+.pokemonTwo {
+  background-color: rgb(235, 241, 139);
+}
+
+.pokemonThree {
+  background-color: rgb(140, 217, 138);
+}
+
+.pokemonFour {
+  background-color: rgb(181, 167, 101);
+}
+
+.pokemonFive {
+  background-color: rgb(219, 164, 237);
+}
+
+.pokemonOne .react-parallax-bgimage,
+.pokemonTwo .react-parallax-bgimage,
+.pokemonThree .react-parallax-bgimage,
+.pokemonFour .react-parallax-bgimage,
+.pokemonFive .react-parallax-bgimage {
+  height: 400px !important;
+  top: 20% !important;
+  left: 25% !important;
+  width: 320px !important;
+}
+
+.pokemonOne .react-parallax-content,
+.pokemonTwo .react-parallax-content,
+.pokemonThree .react-parallax-content,
+.pokemonFour .react-parallax-content,
+.pokemonFive .react-parallax-content {
+  background-color: rgba(255, 255, 255, 0.292);
+  width: 500px;
+  height: 500px;
+  top: 12%;
+  right: 8%;
+  font-size: 1.7em;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 20px;
+}
+
+.write-up h3 {
+  width: auto;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.pokemonOne-title h3 {
+  color: rgb(247, 140, 158);
+}
+
+.pokemonTwo-title h3 {
+  color: rgb(217, 217, 34);
+}
+
+.pokemonThree-title h3 {
+  color: rgb(62, 171, 40);
+}
+
+.pokemonFour-title h3 {
+  color: rgb(142, 124, 33);
+}
+
+.pokemonFive-title h3 {
+  color: rgb(160, 78, 161);
+}
+
+.individual-info {
+  display: flex;
+  width: 90%;
+  margin: 3% 7% 3% 7%;
+  justify-content: space-evenly;
+  font-size: 0.8em;
+}
+
+.individual-info h5 {
+  margin: 0;
+  width: 180px;
+  display: inline-block;
+  text-align: right;
+}
+
+.pokemonOne-info h5 {
+  color: rgb(200, 126, 139);
+}
+
+.pokemonTwo-info h5 {
+  color: rgb(190, 190, 75);
+}
+
+.pokemonThree-info h5 {
+  color: rgb(71, 135, 64);
+}
+
+.pokemonFour-info h5 {
+  color: rgb(128, 110, 38);
+}
+
+.pokemonFive-info h5 {
+  color: rgb(133, 90, 148);
+}
+
+.answer {
+  width: 250px;
+  display: inline;
+  text-align: center;
+  color: rgb(108, 104, 104);
+}
+
+.pokemon-mini {
+  width: fit-content;
+  margin: 4% auto;
+  height: 135px;
+  background: url("../images/21.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: 20% 135%;
+}
+
+.pokemon-mini img {
+  height: 100px;
+  width: 100px;
+  top: 0;
+}
+
+.music {
+  position: absolute;
+  right: 3%;
+  bottom: 3%;
+}
+
+.music img {
+  height: 30px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.music img:hover {
+  transform: scale(1.08);
+}
